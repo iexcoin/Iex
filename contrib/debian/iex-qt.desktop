@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=IEX
+Comment=IEX P2P Cryptocurrency
+Comment[fr]=IEX, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=IEX, eşten eşe kriptografik sanal para birimi
+Exec=iex-qt %u
+Terminal=false
+Type=Application
+Icon=iex128
+MimeType=x-scheme-handler/iex;
+Categories=Office;Finance;

@@ -1,0 +1,11 @@
+[Protocol]
+exec=iex-qt '%u'
+protocol=iex
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

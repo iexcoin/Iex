@@ -1,0 +1,26 @@
+[Unit]
+Description=IEX's distributed currency daemon
+After=network.target
+
+[Service]
+User=iex
+Group=iex
+
+Type=forking
+PIDFile=/var/lib/iexd/iexd.pid
+
+ExecStart=/usr/bin/iexd -daemon -pid=/var/lib/iexd/iexd.pid \
+          -conf=/etc/iex/iex.conf -datadir=/var/lib/iexd
+
+ExecStop=-/usr/bin/iex-cli -conf=/etc/iex/iex.conf \
+         -datadir=/var/lib/iexd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

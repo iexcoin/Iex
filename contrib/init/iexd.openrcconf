@@ -1,0 +1,26 @@
+# /etc/conf.d/iexd: config file for /etc/init.d/iexd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/iex/iex.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/iexd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/iexd.pid"
+
+# Where to write iexd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/iexd"
+
+# User and group to own iexd process
+#BITCOIND_USER="iex"
+#BITCOIND_GROUP="iex"
+
+# Path to iexd executable
+#BITCOIND_BIN="/usr/bin/iexd"
+
+# Nice value to run iexd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
