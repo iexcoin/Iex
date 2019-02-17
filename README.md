@@ -1,3 +1,24 @@
+IEX ecosystem:
+
+Concept of IEX DEX/CEX crypto ecosystem is
+based on transparency and security which will include full functionality to work with cryptocurrency from work with visa/mastercard to purchase of any cryptocurrency:
+
+- P2P direct secure coins deals
+- Trading with charts, orders and history as on usual exchanges
+- Auctions where you can use your time options and rules
+- Full statistics for any coins like CoinMarketCap
+- Ratings and KYD system
+- Personal explorer with block and movements for all coins
+- All information from social networks and search engines about coins
+- Signals
+- Internal messsanger to communicate with developers and other users
+- Arbitration
+- Votes system
+- Self PoS and PoW pools
+- Service hosting/Shared Masternodes
+- Work with Fiat
+
+<hr size=1>
 Ticker: IEX
 Type: PoS/MN
 Algo: Quark
